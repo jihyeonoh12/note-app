@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2c6e61e88a90ebc486d4",
+    "revision": "670839952d019736c365",
     "url": "/note-app/static/css/main.67e8098c.chunk.css"
   },
   {
-    "revision": "2c6e61e88a90ebc486d4",
-    "url": "/note-app/static/js/main.77a3351a.chunk.js"
+    "revision": "670839952d019736c365",
+    "url": "/note-app/static/js/main.625d25ce.chunk.js"
   },
   {
     "revision": "d89c131aa0fba350078c",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/note-app/static/js/3.69c2b8f0.chunk.js"
   },
   {
-    "revision": "aef2caccbe1babf31cad09235c0626a2",
+    "revision": "a85db0c818df81a9d45c61eb1f915045",
     "url": "/note-app/index.html"
   }
 ];
