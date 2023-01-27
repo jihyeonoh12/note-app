@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/note-app/static/js/3.69c2b8f0.chunk.js"
   },
   {
-    "revision": "2be833b63628dbaf7fe059cd1bbf045b",
+    "revision": "725fb87e39e05711632398383582734a",
     "url": "/note-app/index.html"
   }
 ];
