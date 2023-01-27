@@ -7,7 +7,7 @@ import {nanoid} from "nanoid"
 import "./App.css"
 
 
-export default function App() {
+export default function App() { 
 
   const [notes, setNotes] = React.useState(() => JSON.parse(localStorage.getItem("notes")) || [])
 
