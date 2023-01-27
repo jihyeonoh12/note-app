@@ -12,9 +12,7 @@ export default function App() {
   const [notes, setNotes] = React.useState(() => JSON.parse(localStorage.getItem("notes")) || [])
 
 
-  const [pageTitle, setPageTitle] = React.useState(
-    () => JSON.parse(localStorage.getItem("pageTitle") || 'Notes & Thoughts')
-  )
+  const [pageTitle, setPageTitle] = React.useState(() => JSON.parse(localStorage.getItem("pageTitle")) || '')
 
   const [currentNoteId, setCurrentNoteId] = React.useState( notes[0] && notes[0].id || '')
 
@@ -94,7 +92,7 @@ function deleteNote(event, noteId) {
     return (
         <main>
         <div className="page-title-container">
-        <h1 className="page-title">📓 <input className="page-title--input" placeholder='Notes & Thoughts' onChange={renameTitle} value={pageTitle}/></h1>
+        <h1 className="page-title">📓 <input className="page-title--input" placeholder="Notes & Thoughts" onChange={renameTitle} value={pageTitle}/></h1>
          <h4 className="page-date">{date}</h4>
         </div>
          
